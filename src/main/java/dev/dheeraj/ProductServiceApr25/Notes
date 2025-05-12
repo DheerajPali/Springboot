@@ -1,0 +1,18 @@
+Calling 3rd Party APIs - 11-05-2025
+
+1. Write the mechanism to call - getAllProduct and getProductById APIs on fakeStore.
+2. Create our own APIs, to get all products and getProductById which will internally call fakeStore and show the data.
+
+CLIENT <-> ProductService <-> FakeStoreAPI
+
+controller -> contains the APIs
+service -> contains the business logic
+repository -> talks to DB, does CRUD
+model -> contains schema
+client -> classes that will talk to other service.
+
+
+
+ProductService -->(will talk with) --> FakeStore Service
+so we need a client name as
+FakeStoreClient -> contains the code to communicate with FakeStore

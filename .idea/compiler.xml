@@ -3,9 +3,27 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
+<<<<<<< HEAD
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ProductServiceApr25" target="21" />
     </bytecodeTargetLevel>
+=======
+      <profile name="Annotation profile for ProductServiceApr25" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="ProductServiceApr25" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ProductServiceApr25" options="-parameters" />
+    </option>
+>>>>>>> ca3f1eaccfff848744b86ba86dce121d45de8a17
   </component>
 </project>

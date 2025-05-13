@@ -28,6 +28,13 @@ public class FakeStoreClient {
         FakeStoreProductDTO[] response = restTemplate.getForObject(getProductByCategoryURL,FakeStoreProductDTO[].class);
         return response;
     }
+
+    public FakeStoreProductDTO createProduct(FakeStoreProductDTO product){
+        String createProductURL = "https://fakestoreapi.com/products";
+        FakeStoreProductDTO response = restTemplate.postForObject(createProductURL,product, FakeStoreProductDTO.class, product);
+        return  response;
+    }
+
 }
 
 

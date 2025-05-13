@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="988b60dc-00c3-4fcf-8b2c-e5b12b2ab55f" name="Changes" comment="" />
+    <list default="true" id="988b60dc-00c3-4fcf-8b2c-e5b12b2ab55f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/dheeraj/ProductServiceApr25/client/FakeStoreClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dheeraj/ProductServiceApr25/client/FakeStoreClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/dheeraj/ProductServiceApr25/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dheeraj/ProductServiceApr25/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/dheeraj/ProductServiceApr25/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dheeraj/ProductServiceApr25/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/dheeraj/ProductServiceApr25/client/FakeStoreClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/dheeraj/ProductServiceApr25/client/FakeStoreClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/dheeraj/ProductServiceApr25/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/dheeraj/ProductServiceApr25/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/dheeraj/ProductServiceApr25/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/dheeraj/ProductServiceApr25/service/ProductService.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,11 +113,8 @@
       <workItem from="1747040068315" duration="7574000" />
       <workItem from="1747054811416" duration="314000" />
       <workItem from="1747055468231" duration="2170000" />
-<<<<<<< HEAD
-      <workItem from="1747057709638" duration="788000" />
-=======
       <workItem from="1747057709638" duration="365000" />
->>>>>>> ca3f1eaccfff848744b86ba86dce121d45de8a17
+      <workItem from="1747108451515" duration="470000" />
     </task>
     <servers />
   </component>
@@ -125,5 +131,30 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/dheeraj/ProductServiceApr25/service/ProductService.java</url>
+          <line>17</line>
+          <properties class="dev.dheeraj.ProductServiceApr25.service.ProductService" method="getProductById">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/dheeraj/ProductServiceApr25/controller/ProductController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/dheeraj/ProductServiceApr25/client/FakeStoreClient.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

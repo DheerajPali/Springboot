@@ -22,5 +22,14 @@ public class ProductService {
     public FakeStoreProductDTO[] getProductByCategory(String category){
         return fakeStoreClient.getProductByCategory(category);
     }
+
+    public FakeStoreProductDTO createProduct(FakeStoreProductDTO product){
+        return fakeStoreClient.createProduct(product);
+    }
+
+    public FakeStoreProductDTO updateProduct(int id, FakeStoreProductDTO updatedProduct){
+        return fakeStoreClient.updateProduct(id, updatedProduct);
+    }
+
 }
 

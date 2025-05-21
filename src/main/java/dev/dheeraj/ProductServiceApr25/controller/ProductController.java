@@ -22,9 +22,19 @@ public class ProductController {
 
     @GetMapping("/products/category/{name}")
     public FakeStoreProductDTO[] getProductByCategory(@PathVariable("name") String name){
-        System.out.print("hello");
+//        System.out.print("hello");
         return productService.getProductByCategory(name);
 
+    }
+
+    @PostMapping("/product")
+    public FakeStoreProductDTO createProduct (@RequestBody FakeStoreProductDTO fakeStoreProductDTO){
+        return productService.createProduct(fakeStoreProductDTO);
+    }
+
+    @PutMapping("/product/{id}")
+    public FakeStoreProductDTO updateProduct (@PathVariable("id") int id, @RequestBody FakeStoreProductDTO updatedFakeStoreProductDTO ){
+        return productService.updateProduct(id,updatedFakeStoreProductDTO);
     }
 
 

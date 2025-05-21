@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="988b60dc-00c3-4fcf-8b2c-e5b12b2ab55f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/dheeraj/ProductServiceApr25/client/FakeStoreClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dheeraj/ProductServiceApr25/client/FakeStoreClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/dheeraj/ProductServiceApr25/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dheeraj/ProductServiceApr25/controller/ProductController.java" afterDir="false" />
@@ -114,7 +113,9 @@
       <workItem from="1747054811416" duration="314000" />
       <workItem from="1747055468231" duration="2170000" />
       <workItem from="1747057709638" duration="365000" />
-      <workItem from="1747108451515" duration="470000" />
+      <workItem from="1747108451515" duration="4855000" />
+      <workItem from="1747219762696" duration="4993000" />
+      <workItem from="1747812142331" duration="608000" />
     </task>
     <servers />
   </component>
@@ -144,15 +145,19 @@
           </properties>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/dheeraj/ProductServiceApr25/client/FakeStoreClient.java</url>
+          <line>52</line>
+          <properties class="dev.dheeraj.ProductServiceApr25.client.FakeStoreClient" method="putForObject">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/dev/dheeraj/ProductServiceApr25/controller/ProductController.java</url>
           <line>29</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dev/dheeraj/ProductServiceApr25/client/FakeStoreClient.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

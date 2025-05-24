@@ -37,5 +37,10 @@ public class ProductController {
         return productService.updateProduct(id,updatedFakeStoreProductDTO);
     }
 
+    //Let's create custom mathod foṙ fake delete which will return a boolean.
+    @DeleteMapping("/product/{id}")
+    public Boolean deleteProduct(@PathVariable("id") int id ){
+        return productService.deleteProductById(id);
+    }
 
 }

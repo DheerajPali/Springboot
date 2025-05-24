@@ -31,5 +31,10 @@ public class ProductService {
         return fakeStoreClient.updateProduct(id, updatedProduct);
     }
 
+    //here we'll call custom method for delete.
+    public boolean deleteProductById(int id){
+        return fakeStoreClient.deleteProduct(id);
+    }
+
 }
 

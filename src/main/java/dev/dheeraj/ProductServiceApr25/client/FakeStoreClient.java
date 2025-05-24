@@ -46,6 +46,19 @@ public class FakeStoreClient {
         return  response;
     }
 
+    //Custom method to delete , which won't delete in real , but will just give you true/false.
+
+    public boolean deleteProduct(int id){
+        try {
+            return true;
+        }
+        catch (Exception ex){
+            return false;
+//            throw(ex); //use one of return/throw.
+        }
+    }
+
+
     //Here I'm going to create my custom method from RestTemplate,
     // now I don't need to call multiple methods from restTemplate,
     // Just create a common method and call it in each call.
